@@ -1,0 +1,94 @@
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    background-color: #f3f3f3;
+}
+nav{
+    background: #283747;
+    Height: 80px;
+    Width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #141414b7;
+    transition: .5s;
+}
+label.Big{
+    color: black;
+    font-size: 50px;
+    line-height: 80px;
+    padding 0 100px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: #283747;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color: #932423;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-1 {
+    background-image: url(Lifting.jpg)
+}
+.card:hover{
+    background-color: #99b1c5;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+.projectscard{
+    color: white;
+    margin: 10px;
+}
+.style1{
+    color: #932423;
+    font-size: 50px;
+}
