@@ -77,6 +77,9 @@ label.Big{
 .card-1 {
     background-image: url(Images/Lifting.jpg)
 }
+.card-2 {
+    background-image: url(Images/To-Do\ List.jpg);
+}
 .card:hover{
     background-color: #99b1c5;
     color: white;
@@ -91,6 +94,14 @@ label.Big{
 .style1{
     color: #932423;
     font-size: 50px;
+}
+.style2{
+    color:#932423;
+    font-size: 30px;
+}
+.style3{
+    color: black;
+    font-size: 20px;;
 }
 .checkbtn{
     font-size: 30px;
@@ -148,4 +159,9 @@ section{
     background: url(bg1.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
+}
+.profilepic{
+    border-radius: 20%;
+    height: 165px;
+    width: 134px;
 }
