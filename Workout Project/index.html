@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Workout Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Images/logo.png" alt="Logo" class="logo-img">
+        <h1>8-Week Workout Program</h1>
+    </header>
+    
+    <main>
+        <!-- Lift input fields -->
+        <label for="benchPress">Bench Press One Rep Max:</label>
+        <input type="number" id="benchPress" placeholder="Enter 1RM">
+    
+        <label for="squat">Squat One Rep Max:</label>
+        <input type="number" id="squat" placeholder="Enter 1RM">
+    
+        <label for="pullUp">Pull-Up/Chin-Up Max Reps:</label>
+        <input type="number" id="pullUp" placeholder="Enter Max Reps">
+    
+        <button id="calculateBtn">Calculate Program</button>
+    
+        <div id="programResults">
+            <!-- Display program results here -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
