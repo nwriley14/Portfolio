@@ -78,7 +78,7 @@ label.Big{
     background-image: url(Images/Lifting.jpg)
 }
 .card-2 {
-    background-image: url(Images/To-Do\ List.jpg);
+    background-image: url(Images/city.png);
 }
 .card:hover{
     background-color: #99b1c5;
