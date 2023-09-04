@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City Quiz</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>City Preference Quiz</h1>
+        <p class="instructions">Answer the following questions to find out what type of city you would like to live in.</p>
+        <form id="quizForm">
+            <p>1. Do you like weather warmer or cooler than 60 degrees?</p>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="temperature" value="warmer" required> Warmer
+                </label>
+                <label>
+                    <input type="radio" name="temperature" value="cooler" required> Cooler
+                </label>
+            </div>
+            <p>2. Do you like the Beach or the Mountains better?</p>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="preference" value="beach" required> Beach
+                </label>
+                <label>
+                    <input type="radio" name="preference" value="mountains" required> Mountains
+                </label>
+            </div>
+            <div class="button-container">
+                <button type="button" id="submitQuiz">Submit</button>
+            </div>
+        </form>
+        <div id="result" class="result"></div>
+        <!-- Add images here -->
+        <!-- Add images here -->
+<div id="images" class="images">
+    <img src="Images/tampa.png" alt="Tampa, FL" id="tampaImage" style="display: none;">
+    <img src="Images/gatlinburg.png" alt="Gatlinburg, TN" id="gatlinburgImage" style="display: none;">
+    <img src="Images/capecod.png" alt="Cape Cod, MA" id="capecodImage" style="display: none;">
+    <img src="Images/denver.png" alt="Denver, CO" id="denverImage" style="display: none;">
+</div>
+
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
