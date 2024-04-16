@@ -1,0 +1,90 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* styles.css */
+
+.header-logo {
+    width: 100px; /* Adjust the width as needed */
+    margin-right: 20px; /* Add some margin to separate the logo from the heading */
+}
+
+header h1 {
+    display: inline; /* Make the heading display inline with the logo */
+}
+
+.about-me {
+    text-align: center; /* Center align the About Me section */
+}
+
+.about-me-content {
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.about-me-image {
+    width: 200px; /* Set the width of the image to 200px */
+}
+
+.about-me-content p {
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 20px; /* Add bottom margin to separate paragraphs */
+}
+
+.content-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
